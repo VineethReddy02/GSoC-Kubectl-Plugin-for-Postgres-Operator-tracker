@@ -1,4 +1,4 @@
-## Calender Week #0: 12th May to 19th May 
+## Calender Week #1: 12th May to 19th May 
 
 ### Summary of work done: 
 - Spent some time in understanding k8s internally.
