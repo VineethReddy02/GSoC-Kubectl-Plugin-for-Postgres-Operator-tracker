@@ -2,37 +2,37 @@
 
 ```
     $ kubectl --context minikube  create -f manifests/configmap.yaml
-	```
+```
   
 ####	First you need to install the service account definition in your Minikube cluster.
 
 ```
     $ kubectl --context minikube create -f manifests/operator-service-account-rbac.yaml
-	```
+```
   
 #### Next deploy the postgres-operator from the docker image Zalando is using:
 
 ```
     $ kubectl --context minikube create -f manifests/postgres-operator.yaml
-	```
+```
   
 ####	Check if CustomResourceDefinition has been registered
   
-	```
+```
     $ kubectl --context minikube   get crd
-    ```
+```
 	
 #### Create a new Spilo cluster
 
 ```
     $ kubectl --context minikube  create -f manifests/minimal-postgres-manifest.yaml
-	```
+```
   
 #### Watch pods being created
 
 ```
     $ kubectl --context minikube  get pods -w --show-labels
-	```
+```
   
 #### Connect to PostgreSQL
  
@@ -45,7 +45,7 @@ We can use the generated secret of the postgres robot user to connect to our aci
     $ export PGPASSWORD=$(kubectl --context minikube get secret postgres.acid-minimal-cluster.credentials -o 'jsonpath={.data.password}' | base64 -d)
 	  $ sudo apt-get install postgresql-client
     $ psql -U postgres
-   ```
+ ```
    ### List of objects created 
 ```
 vineeth@vineeth-Lenovo-Z51-70:~$ kubectl get pods
