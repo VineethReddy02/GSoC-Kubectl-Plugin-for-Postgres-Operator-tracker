@@ -1,13 +1,15 @@
 ## Calender Week #1: 12th May to 19th May 
 
 ### Summary of work done: 
-- Spent some time in understanding k8s internally.
-- Spent time on Postgres Operator architecture.
-- Spent some time on glide dependency tool.
-- Brushing up golang.
+- Worked on k8s architecture by underdstanding different types of objects such as deployments, pods, replicaset, etc..
+  I have documented my findings [here](https://github.com/VineethReddy02/Kubernetes-Notes).
+- Thoroughly read postgres-operator documentation.
+- I worked with glide dependency tool as i was not familar with it by creating sample project and vendoring dependencies into it.
+- I ran postgres operator locally in minikube. It was more like an hello world with operator.
 
 ### What can be improved:
- - nothing.
+ - May be a call to understand the deliverables and to set expectations clear might help. If there are any standards 
+   you are looking for during implementation, I can work on it.
 
 ### What went well:
 
@@ -17,6 +19,6 @@
 
 ### TODOs for next week
 
-- Spend some time on other kubectl plugins.
-- Spend some time in understanding kubernetes.
-- Understand the usage of postgres operator and it's internals.
+- Start working on plugin as the upcoming week implementation needs to be started.
+- Understand the operator codebase by looking into it's implementation.
+- Inspect the internals of postgres operator.
