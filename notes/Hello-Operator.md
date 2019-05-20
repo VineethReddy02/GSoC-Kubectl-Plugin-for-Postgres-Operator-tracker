@@ -43,7 +43,7 @@ We can use the generated secret of the postgres robot user to connect to our aci
     $ export PGHOST=$(echo $HOST_PORT | cut -d: -f 1)
     $ export PGPORT=$(echo $HOST_PORT | cut -d: -f 2)
     $ export PGPASSWORD=$(kubectl --context minikube get secret postgres.acid-minimal-cluster.credentials -o 'jsonpath={.data.password}' | base64 -d)
-	  $ sudo apt-get install postgresql-client
+    $ sudo apt-get install postgresql-client
     $ psql -U postgres
  ```
    ### List of objects created 
