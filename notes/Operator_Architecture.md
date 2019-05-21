@@ -15,6 +15,8 @@ Spilo is a Docker image that provides PostgreSQL and Patroni bundled together. P
 Patroni is attached to every instance of postgres it takes care of promotion if it is a worker and demotion if it's master.
 Every replica looks at the neighbours and leader assess how far it is away from them. Based on it's performance it acquires the lock from etcd to become the leader.
 
+### Operator Responsibilities
+
 - Operator starts pods with Spilo docker image
 - Operator provides environment variables to spilo.
 - Operator makes sure all kubernetes objects are in sync.
@@ -25,4 +27,6 @@ Every replica looks at the neighbours and leader assess how far it is away from 
 - Patroni creates roles and applies configuration.
 - Patroni changes service endpoints on failover.
 
-![Screenshot (11)](https://user-images.githubusercontent.com/25104868/58109276-f72dc580-7c0a-11e9-9725-c22c2f038121.png)
+ResourceVersions are used to make a replica as master. Compare and set the master. 
+
+![Operator_Interaction_with_k8s](https://user-images.githubusercontent.com/25104868/58109276-f72dc580-7c0a-11e9-9725-c22c2f038121.png)
