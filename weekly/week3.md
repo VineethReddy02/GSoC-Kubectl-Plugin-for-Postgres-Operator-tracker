@@ -3,7 +3,7 @@
 ### Summary of work done: 
 
 - ```kubectl pg check``` cmd has been completed.
-- ```Understood internals of postgres operator generater codebase.
+- ```Understood internals``` of postgres operator generated codebase for upcoming weeks work on postgressql objects.
 
 ### What can be improved:
 
@@ -11,10 +11,11 @@
 
 ### What went well:
 
-- Call with my mentor ####Sergey has clarified by doubts in the beginning of the week.
+- Call with my mentor <strong>Sergey</strong>
+has clarified by doubts in the beginning of the week.
   
 
 ### TODOs for next week
 
-- Create/update/delete of kind:postgresql i.e ```kubectl pg create/update abc.yaml```
-  and ```kubectl delete abc.yaml/postgressql_name.```
+- Create/update/delete of kind:postgresql i.e ```kubectl pg create/update abc.yaml``` and 
+   ```kubectl delete abc.yaml/postgressql_name.```
