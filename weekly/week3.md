@@ -17,5 +17,5 @@ has clarified by doubts in the beginning of the week.
 
 ### TODOs for next week
 
-- Create/update/delete of kind:postgresql i.e ```kubectl pg create/update abc.yaml``` and 
+- Create/update/delete of ```kind:postgresql``` i.e ```kubectl pg create/update abc.yaml``` and 
    ```kubectl delete abc.yaml/postgresql_name.```
