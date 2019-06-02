@@ -3,7 +3,7 @@
 ### Summary of work done: 
 
 - ```kubectl pg check``` cmd has been completed.
-- ```Understood internals``` of postgres operator generated codebase for upcoming weeks work on postgressql objects.
+- Understood internals of postgres operator generated codebase for upcoming weeks work on postgressql objects.
 
 ### What can be improved:
 
