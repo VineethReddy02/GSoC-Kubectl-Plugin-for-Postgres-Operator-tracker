@@ -2,12 +2,12 @@
 
 ### Summary of work done: 
 
-- ```kubectl pg check``` cmd has been completed.
+- ```kubectl pg check``` cmd has been implemented by evaluating CRD of name ```postgresqls.acid.zalan.do```.
 - Understood internals of postgres operator generated codebase for upcoming weeks work on postgressql objects.
 
 ### What can be improved:
 
- - I was validating ```kubectl pg check``` by the status of postgres operator deployment status. But when i relaised crd can be deleted manually and operator status is still running. My initial validation work fails. I should have done this validations before writing code.
+ - I was validating ```kubectl pg check``` by the status of postgres operator deployment status. But when i realised crd can be deleted manually and operator status is still running. My initial validation work fails. I should have done this validations before writing code.
 
 ### What went well:
 
