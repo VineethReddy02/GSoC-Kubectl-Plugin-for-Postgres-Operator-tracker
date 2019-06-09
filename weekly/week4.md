@@ -21,4 +21,4 @@
 
 - list command to list postgresql not sure what fields need to be shown such as name, age etc..
    ```kubectl pg list```
-- Add space,users,DBs explicitly using comamnds pg commands.
+- Add space,users,DBs explicitly using kubectl pg commands.
