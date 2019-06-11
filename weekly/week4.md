@@ -6,6 +6,7 @@
 -  ```kubectl pg update -f minimal-postgres-cluster.yaml``` command has been implemented to update postgresql resources.
 -  ```kubectl pg delete -f minimal-postgres-cluster.yaml``` command has been implemented to delete postgresql resources.
 -  ```kubectl pg delete -n acid-minimal-cluster``` command has been implemented to delete postgresql resources using object name.
+
 ![Screenshot (22)](https://user-images.githubusercontent.com/25104868/59260050-88b3b480-8c58-11e9-8bf8-b6ae3dfd371e.png)
 
 Note: The above image represents ```kubectl pg``` as ```kubectl-pg``` as windows has some issues it says "not supported by windows". Usaually it works as ```kubectl pg``` in all linux machines. 
