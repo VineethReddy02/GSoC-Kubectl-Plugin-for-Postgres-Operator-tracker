@@ -1,37 +1,37 @@
 #### ConfigMap is used to store the configuration of the operator
 
 ```
-    $ kubectl --context minikube  create -f manifests/configmap.yaml
+    $ kubectl create -f manifests/configmap.yaml
 ```
   
 ####	First you need to install the service account definition in your Minikube cluster.
 
 ```
-    $ kubectl --context minikube create -f manifests/operator-service-account-rbac.yaml
+    $ kubectl create -f manifests/operator-service-account-rbac.yaml
 ```
   
 #### Next deploy the postgres-operator from the docker image Zalando is using:
 
 ```
-    $ kubectl --context minikube create -f manifests/postgres-operator.yaml
+    $ kubectl create -f manifests/postgres-operator.yaml
 ```
   
 ####	Check if CustomResourceDefinition has been registered
   
 ```
-    $ kubectl --context minikube   get crd
+    $ kubectl get crd
 ```
 	
 #### Create a new Spilo cluster
 
 ```
-    $ kubectl --context minikube  create -f manifests/minimal-postgres-manifest.yaml
+    $ kubectl create -f manifests/minimal-postgres-manifest.yaml
 ```
   
 #### Watch pods being created
 
 ```
-    $ kubectl --context minikube  get pods -w --show-labels
+    $ kubectl get pods -w --show-labels
 ```
   
 #### Connect to PostgreSQL
