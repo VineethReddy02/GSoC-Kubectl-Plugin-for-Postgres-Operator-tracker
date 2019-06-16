@@ -12,7 +12,7 @@
  
  ![list-pg](https://user-images.githubusercontent.com/25104868/59565569-091c5000-9073-11e9-96cc-d4e67d4ab03f.png)
  
- ### kubectl pg delete CLUSTER01
+ ### kubectl pg delete CLUSTER01(enhancement)
  
  ![delete-enhancement](https://user-images.githubusercontent.com/25104868/59565562-f0ac3580-9072-11e9-94e0-cd9a0baec80f.png)
  
