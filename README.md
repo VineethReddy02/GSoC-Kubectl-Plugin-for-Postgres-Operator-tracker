@@ -27,6 +27,9 @@ The Postgres Operator is a project to create an open-sourced managed Postgres se
 + [Week 0](weekly/week0.md)
 + [Week 1](weekly/week1.md)
 + [Week 2](weekly/week2.md)
+
+### First Phase of Coding Begins...
+
 + [Week 3](weekly/week3.md)
 + [Week 4](weekly/week4.md)
 + [Week 5](weekly/week5.md)
