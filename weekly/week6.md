@@ -1,9 +1,9 @@
-## Calender Week #5: 10th June to 16th June
+## Calender Week #6: 17th June to 23rd June
 
 ### Summary of work done: 
 
- - Worked around different ways of implementing unit tests. But as it seems challenging with plugin usecases and with implementation..
- - Implemented ```kubectl pg scale [numberOfInstances] -c [CLUSTERNAME]
+ - Worked around different ways of implementing unit tests. But as it seems challenging with plugin usecases and with implementation.
+ - Implemented ```kubectl pg scale [numberOfInstances] -c [CLUSTERNAME]```
  
 ### What can be improved:
 
