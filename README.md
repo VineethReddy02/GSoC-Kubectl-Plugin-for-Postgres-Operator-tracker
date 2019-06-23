@@ -33,4 +33,5 @@ The Postgres Operator is a project to create an open-sourced managed Postgres se
 + [Week 3](weekly/week3.md)
 + [Week 4](weekly/week4.md)
 + [Week 5](weekly/week5.md)
++ [Week 6](weekly/week6.md)
 
