@@ -4,7 +4,7 @@
 
  - Implemented ```kubectl pg connect -c CLUSTER01 --psql``` This takes us to the psql prompt of random pod 
    and also specified pod.
- - Implemented ```kubectl pg version``` which shows kubectl-pg version and operator version.```
+ - Implemented ```kubectl pg version``` which shows kubectl-pg version and operator version.
  
 ### What can be improved:
 
