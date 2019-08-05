@@ -23,6 +23,7 @@
 
 - Review comments need to be addressed.
 - Switching to MIT license.
+- I will focus on plugin usability standards.
 
 ### Backlog
 
