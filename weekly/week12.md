@@ -17,7 +17,7 @@
 
 ### What went well:
 
-- nil
+- Sergey planning for a weekly call twice a week made few things work in fatser iteration.
   
 ### TODOs for next week
 
