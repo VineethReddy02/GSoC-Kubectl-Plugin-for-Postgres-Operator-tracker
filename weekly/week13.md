@@ -7,7 +7,8 @@
  - Fixed bug for ```kubectl pg ext-volume 13 -c acid-test-pg-plugin``` right now it asks to specify valud volume units.
  - Fixed bug for ```kubectl pg add-db test-db -o test-user -c some-test-db-name```
    this will not raise nil map exception. Irrespective of datatbases defined in cluster manifest user can add them.
- - Swicted update to patch in ```kubectl pg scale``` to avoid some default value show up in ```kubectl describe postgresql```
+ - Swicted update to patch in ```kubectl pg scale``` to avoid some default value show up in
+ ```kubectl describe postgresql``` but this doesn't seem to work.
  
 ### What can be improved:
 
