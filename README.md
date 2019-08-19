@@ -51,4 +51,5 @@ The Postgres Operator is a project to create an open-sourced managed Postgres se
 
 
 ## PR Requests and Commits
-[kubectl plugin for postgres operator](https://github.com/zalando/postgres-operator/pull/579#pullrequestreview-275367465)
++ [kubectl plugin for postgres operator](https://github.com/zalando/postgres-operator/pull/579#pullrequestreview-275367465)
+     - [kubectl pg check](https://github.com/zalando/postgres-operator/pull/579/commits/e6869ea8df4f5337df4c8bba581b0d655341c892)
