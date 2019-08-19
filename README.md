@@ -48,3 +48,7 @@ The Postgres Operator is a project to create an open-sourced managed Postgres se
 + [Week 12](weekly/week12.md)
 + [Week 13](weekly/week13.md)
 + [Week 14](weekly/week14.md)
+
+
+## PR Requests and Commits
+[kubectl plugin for postgres operator](https://github.com/zalando/postgres-operator/pull/579#pullrequestreview-275367465)
