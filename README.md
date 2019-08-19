@@ -8,7 +8,7 @@ The Postgres Operator is a project to create an open-sourced managed Postgres se
 ## General Info
 
 + Name: Vineeth Pothulapati
-+ Github: [Vineeth](https://github.com/VineethReddy02)
++ Github: [VineethReddy02](https://github.com/VineethReddy02)
 + Email: vineethbfhs@gmail.com
 + Slack nick: Vineeth
 + Mentors: 1. [Sergey Dudoladov](https://github.com/sdudoladov)
@@ -53,3 +53,4 @@ The Postgres Operator is a project to create an open-sourced managed Postgres se
 ## PR Requests and Commits
 + [kubectl plugin for postgres operator](https://github.com/zalando/postgres-operator/pull/579#pullrequestreview-275367465)
      - [kubectl pg check](https://github.com/zalando/postgres-operator/pull/579/commits/e6869ea8df4f5337df4c8bba581b0d655341c892)
+     - [kubectl pg create/update/delete -f manifest.yaml](https://github.com/zalando/postgres-operator/pull/579/commits/7f20d2e67ef43619818584fb4f80dd3f34e72efd)
