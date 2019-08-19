@@ -54,3 +54,5 @@ The Postgres Operator is a project to create an open-sourced managed Postgres se
 + [kubectl plugin for postgres operator](https://github.com/zalando/postgres-operator/pull/579#pullrequestreview-275367465)
      - [kubectl pg check](https://github.com/zalando/postgres-operator/pull/579/commits/e6869ea8df4f5337df4c8bba581b0d655341c892)
      - [kubectl pg create/update/delete -f manifest.yaml](https://github.com/zalando/postgres-operator/pull/579/commits/7f20d2e67ef43619818584fb4f80dd3f34e72efd)
+     - [kubectl pg list](https://github.com/zalando/postgres-operator/pull/579/commits/bd95e17bfc18c122b215d3a13cffa160cb1cb665)
+     - [kubectl pg add-user/add-db/ext-volume -c clusterName](https://github.com/zalando/postgres-operator/pull/579/commits/4a5ec8ed31067e5b18a98e4187449417eb80ae35)
