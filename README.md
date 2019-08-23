@@ -176,3 +176,5 @@ The Postgres Operator is a project to create an open-sourced managed Postgres se
 30. Get the version of kubectl pg plugin and postgres-operator in specified namespace
 
 ```kubectl pg version -n namespace```
+
+### Cheers! I made it. Thanks Sergey & Felix for wonderful guidance :smiley: .
