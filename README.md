@@ -48,6 +48,7 @@ The Postgres Operator is a project to create an open-sourced managed Postgres se
 + [Week 12](weekly/week12.md)
 + [Week 13](weekly/week13.md)
 + [Week 14](weekly/week14.md)
++ [Week 15](weekly/week15.md)
 
 
 ## Below Pull Request contains all my kubectl pg plugin work
