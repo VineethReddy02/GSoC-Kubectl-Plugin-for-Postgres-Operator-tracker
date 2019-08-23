@@ -53,3 +53,125 @@ The Postgres Operator is a project to create an open-sourced managed Postgres se
 ## Below Pull Request contains all my kubectl pg plugin work
 + [kubectl plugin for postgres operator](https://github.com/zalando/postgres-operator/pull/579#pullrequestreview-275367465)
 
+## Developed Features:
+
+1. Check whether the postgres CRD is registered.
+
+```kubectl pg check```
+
+2. Create postgres cluster using manifest file
+
+```kubectl pg create -f manifest.yaml```
+
+3. Update postgres cluster using manifest file
+
+```kubectl pg update -f manifest.yaml```
+
+4. Delete postgres cluster using manifest file
+
+```kubectl pg delete -f manifest.yaml```
+
+5. Delete postgres cluster using cluster name
+
+```kubectl pg delete cluster```
+
+6. Delete postgres cluster using cluster name in specified namespace
+
+```kubectl pg delete cluster -n namespace```
+
+7. List postgres cluster from current namespace
+
+```kubectl pg list```
+
+8. List postgres clusters from all namespaces
+
+```kubectl pg list -A```
+
+9. Extend volume of an existing cluster
+
+```kubectl pg ext-volume 2Gi -c cluster```
+
+10. Scale the number of instances of postgres cluster
+
+```kubectl pg scale 10 -c cluster```
+
+11. Add a database and it's owner to a postgres cluster
+
+```kubectl pg add-db DB01 -o OWNER -c cluster```
+
+12. Add a user and set of privileges to a postgres-cluster
+
+```kubectl pg add-user USER01 -p login,createdb -c cluster```
+
+13. Fetch the logs of the postgres operator
+
+```kubectl pg logs -o```
+
+14. Fetch the logs of a random replica for the provided cluster
+
+```kubectl pg logs -c cluster```
+
+15. Fetch the logs of master for the provided postgres cluster
+
+```kubectl pg logs -c cluster -m```
+
+16. Fetch the logs of specified replica for provided postgres cluster
+
+```kubectl pg logs -c cluster -r 3```
+
+17. Connect to shell prompt of a random replica for the provided postgres cluster
+
+```kubectl pg connect -c cluster```
+
+18. Connect to shell prompt of master for the provided postgres cluster
+
+```kubectl pg connect -c cluster -m```
+
+19. Connect to shell prompt of specified replica for the provided postgres cluster
+
+```kubectl pg connect -c cluster -r 2```
+
+20. Connect to psql prompt of random replica for the provided postgres cluster, db-user as current user and db-name as current username
+
+```kubectl pg connect -c cluster -p```
+
+21. Connect to psql prompt of random replica with provided postgres cluster, db-user as specified user and db-name as specified user
+
+```kubectl pg connect -c cluster -p -u user01```
+
+22. Connect to psql prompt of random replica with provided postgres cluster, db-user as specified user and db-name as specified db-name
+
+```kubectl pg connect -c cluster -p -u user01 -d db01```
+
+23. Connect to psql prompt of specified replica for the provided postgres cluster, db-user as current user and db-name as current username
+
+```kubectl pg connect -c cluster -p -r 4```
+
+24. Connect to psql prompt of specified replica with provided postgres cluster, db-user as specified user and db-name as specified user
+
+```kubectl pg connect -c cluster -p -r 3 -u user01```
+
+25. Connect to psql prompt of specified replica with provided postgres cluster, db-user as specified user and db-name as specified db-name
+
+```kubectl pg connect -c cluster -p -r 3 -u user01 -d db01```
+
+26. Connect to psql prompt of master for the provided postgres cluster, db-user as current user and db-name as current username
+
+```kubectl pg connect -c cluster -p -m```
+
+27. Connect to psql prompt of master with provided postgres cluster, db-user as specified user and db-name as specified user
+
+```kubectl pg connect -c cluster -p -m -u user01```
+
+28. Connect to psql prompt of master with provided postgres cluster, db-user as specified user and db-name as specified db-name
+
+```kubectl pg connect -c cluster -p -m -u user01 -d db01```
+
+
+29. Get the version of kubectl pg plugin and postgres-operator in default namespace
+
+```kubectl pg version```
+
+30. Get the version of kubectl pg plugin and postgres-operator in specified namespace
+
+```kubectl pg version -n namespace```
