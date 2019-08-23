@@ -16,5 +16,5 @@
 
 - nil
   
-### Cheers! I made it. Thanks Sergey & Felix for wonderful guidance :smiley: .
+### Cheers! I made it. Thanks [Sergey](https://github.com/sdudoladov) & [Felix](https://github.com/FxKu) for wonderful guidance :smiley: .
 
